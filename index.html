@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma liste de Noël</title>
+  <meta name="description" content="Quelques idées cadeaux pour Noël, pour tous les budgets.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎁</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,500;1,700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="snow" aria-hidden="true"></div>
+    <p class="eyebrow">Idées cadeaux</p>
+    <h1>
+      <span class="star" aria-hidden="true">✦</span>
+      Ma liste de Noël
+      <span class="star star--late" aria-hidden="true">✦</span>
+    </h1>
+    <p class="intro">
+      Coucou la famille et les amis ! Si vous vous demandez quoi m'offrir cette année,
+      voici quelques idées pour vous aider. Prenez ce qui vous fait plaisir, sans aucune pression !
+    </p>
+    <p class="budget-pill" id="budget-pill">Des idées pour tous les budgets</p>
+    <div class="lights" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <nav class="filters" aria-label="Filtrer par budget">
+      <button type="button" class="chip is-active" data-min="0" data-max="Infinity" aria-pressed="true">Tous</button>
+      <button type="button" class="chip" data-min="0" data-max="50" aria-pressed="false">Moins de 50 €</button>
+      <button type="button" class="chip" data-min="50" data-max="100" aria-pressed="false">50 € à 100 €</button>
+      <button type="button" class="chip" data-min="100" data-max="Infinity" aria-pressed="false">Plus de 100 €</button>
+    </nav>
+
+    <div id="sections"></div>
+    <p class="empty" id="empty" hidden>Aucune idée dans ce budget… essayez un autre filtre !</p>
+
+    <noscript>
+      <p class="empty">Cette page a besoin de JavaScript pour afficher la liste.
+        Vous pouvez aussi <a href="liste-de-noel.pdf">télécharger la liste en PDF</a>.</p>
+    </noscript>
+
+    <aside class="tip">
+      <span class="tip__icon" aria-hidden="true">🎁</span>
+      <p>
+        <strong>Petit conseil :</strong> c'est souvent moins cher en ligne qu'en magasin, mais il y a
+        des frais de port. Si plusieurs d'entre vous commandent, <strong>regroupez-vous</strong> pour
+        les partager ! La livraison peut aussi prendre un peu de temps : le site conseille de
+        <strong>commander avant le 6 décembre</strong> pour que tout arrive avant Noël.
+      </p>
+    </aside>
+
+    <footer class="footer">
+      <p class="thanks">Merci mille fois et joyeux Noël !</p>
+      <p><a class="pdf-link" href="liste-de-noel.pdf" download>📄 Télécharger la liste en PDF</a></p>
+      <p class="small">Prix relevés sur myhobby.place le 18 novembre 2026, ils peuvent changer.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "sections": [
+    {
+      "game": "Warhammer 40k",
+      "faction": "Custodes",
+      "gifts": [
+        {
+          "name": "Telemon Heavy Dreadnought",
+          "price": 72.00,
+          "image": "images/telemon-heavy-dreadnought.jpeg",
+          "url": "https://myhobby.place/en/20696-telemon-heavy-dreadnought.html"
+        },
+        {
+          "name": "Aquilon Terminator Sodality",
+          "price": 51.20,
+          "image": "images/aquilon-terminator-sodality.jpeg",
+          "url": "https://myhobby.place/en/20706-aquilon-terminator-sodality.html"
+        }
+      ]
+    },
+    {
+      "game": "Age of Sigmar",
+      "faction": "Stormcast Eternals",
+      "gifts": [
+        {
+          "name": "Lord-Celestant on Stardrake",
+          "price": 124.00,
+          "image": "images/lord-celestant-on-stardrake.jpeg",
+          "url": "https://myhobby.place/en/1064-lord-celestant-on-stardrake.html"
+        },
+        {
+          "name": "Ionus Cryptborn",
+          "price": 96.00,
+          "image": "images/ionus-cryptborn.jpeg",
+          "url": "https://myhobby.place/en/4856-ionus-cryptborn.html"
+        },
+        {
+          "name": "Iridan the Witness",
+          "price": 80.00,
+          "image": "images/iridan-the-witness.jpeg",
+          "url": "https://myhobby.place/en/10276-iridan-the-witness.html"
+        },
+        {
+          "name": "Lord-Commander Bastian Carthalos",
+          "price": 30.80,
+          "image": "images/lord-commander-bastian-carthalos.jpeg",
+          "url": "https://myhobby.place/en/1881-lord-commander-bastian-carthalos.html"
+        },
+        {
+          "name": "Lord-Terminos",
+          "price": 28.80,
+          "image": "images/lord-terminos.jpeg",
+          "url": "https://myhobby.place/en/10270-lord-terminos.html"
+        }
+      ]
+    }
+  ]
+}
