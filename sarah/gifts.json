@@ -1,0 +1,182 @@
+{
+  "sections": [
+    {
+      "title": "Bijoux",
+      "subtitle": "Agatha · bordeaux & doré",
+      "gifts": [
+        {
+          "name": "Earcuff Opéra, bordeaux / doré",
+          "price": 35.00,
+          "image": "images/earcuff-opera.jpg",
+          "shop": "Agatha",
+          "url": "https://www.agatha.fr/fr_FR/p/earcuff-opera-bordeaux-dore/02381656-473-TU.html"
+        },
+        {
+          "name": "Collier court Smarty, bordeaux / doré",
+          "price": 45.00,
+          "image": "images/collier-smarty.jpg",
+          "shop": "Agatha",
+          "url": "https://www.agatha.fr/fr_FR/p/collier-court-smarty-bordeaux-dore/02670200-473-TU.html"
+        },
+        {
+          "name": "Créoles Opéra, bordeaux / doré",
+          "price": 50.00,
+          "image": "images/creoles-opera.jpg",
+          "shop": "Agatha",
+          "url": "https://www.agatha.fr/fr_FR/p/creoles-opera-bordeaux-dore/02381657-473-TU.html"
+        }
+      ]
+    },
+    {
+      "title": "Lectures",
+      "subtitle": "Romantasy",
+      "gifts": [
+        {
+          "name": "Les Héritiers du Chaos, tome 1 : Le Pacte de sang (Laura S. Wild)",
+          "price": 19.95,
+          "image": "images/heritiers-du-chaos.jpg",
+          "shop": "Fnac",
+          "url": "https://www.fnac.com/a21699579/Les-Heritiers-Du-Chaos-Le-Pacte-de-sang-Les-Heritiers-du-Chaos-Tome-1-Laura-S-Wild"
+        },
+        {
+          "name": "Eldritch, The Eating Woods tome 2 (Keri Lake)",
+          "price": 23.00,
+          "image": "images/eldritch.jpg",
+          "shop": "Fnac",
+          "url": "https://www.fnac.com/a23346230/The-Eating-Woods-La-suite-du-best-seller-Anathema-The-Eating-Woods-tome-2-Eldritch-Keri-Lake"
+        },
+        {
+          "name": "The Things Gods Break, The Crucible tome 2 (Abigail Owen)",
+          "price": 24.95,
+          "image": "images/the-things-gods-break.jpg",
+          "shop": "Fnac",
+          "url": "https://www.fnac.com/a22448528/The-Crucible-The-Crucible-Tome-2-The-things-gods-break-Version-francaise-Abigail-Owen"
+        },
+        {
+          "name": "Light Wielder, Fire and Metal tome 2 (Rachel Schneider)",
+          "price": 26.00,
+          "image": "images/light-wielder.jpg",
+          "shop": "Fnac",
+          "note": "En précommande, sort le 10 décembre",
+          "url": "https://www.fnac.com/a22705997/Fire-And-Metal-Chroniques-D-Alaha-Tome-02-Light-Wielder-La-Clair-meneuse-Tome-02-Chroniques-d-Alaha-relie-Rachel-Schneider"
+        },
+        {
+          "name": "Gods and Monsters, tome 3 : L'Aube de la Reine Damnée (Amber V. Nicole)",
+          "price": 29.99,
+          "image": "images/gods-and-monsters-3.jpg",
+          "shop": "Fnac",
+          "note": "Édition reliée",
+          "url": "https://www.fnac.com/a22496972/Gods-And-Monsters-Gods-and-Monsters-3-L-Aube-de-la-Reine-Damnee-Edition-Relie-Nicole-Amber-V"
+        }
+      ]
+    },
+    {
+      "title": "Mode",
+      "subtitle": "Tons chocolat",
+      "gifts": [
+        {
+          "name": "Pantalon de tailleur marron",
+          "price": 35.95,
+          "image": "images/pantalon-marron.jpg",
+          "shop": "Zara",
+          "note": "Réf. Brown8927/869/700 Va avec le blazer. Taille S",
+          "url": "https://www.zara.com/fr/en/houndstooth-wide-leg-trousers-p08927869.html?v1=597160775&v2=2420799"
+        },
+        {
+          "name": "Peignoir col kimono personnalisé, chocolat",
+          "price": 35.99,
+          "image": "images/peignoir-chocolat.jpg",
+          "shop": "Blancheporte",
+          "note": "Prix promo (au lieu de 59,99 €), brodé avec un prénom",
+          "url": "https://www.blancheporte.fr/fr_FR/p/peignoir-mixte-adulte-uni-col-kimono-personnalise---eponge-bouclette-380-g-m2/301709-11.html"
+        },
+        {
+          "name": "Blazer croisé marron",
+          "price": 65.95,
+          "image": "images/blazer-marron.jpg",
+          "shop": "Zara",
+          "note": "Réf. Brown8926/869/700. Taille S",
+          "url": "https://www.zara.com/fr/en/double-breasted-houndstooth-blazer-p08926869.html?v1=613288540&v2=2420799"
+        },
+        {
+          "name": "Veste en fausse fourrure (faux fur shaped jacket)",
+          "price": 89.99,
+          "image": "images/manteau-fausse-fourrure.jpg",
+          "shop": "Gina Tricot",
+          "note": "Taille S",
+          "url": "https://www.ginatricot.com/eu/clothes/coatsjackets/faux-fur-jackets/faux-fur-shaped-jacket-313927000"
+        }
+      ]
+    },
+    {
+      "title": "Beauté",
+      "subtitle": "& rangement",
+      "gifts": [
+        {
+          "name": "Rouge à lèvres M·A·C, teinte marron (nouveauté)",
+          "price": 29.00,
+          "image": "images/rouge-a-levres-mac.jpg",
+          "shop": "M·A·C",
+          "url": "https://www.maccosmetics.fr/product/rouge-a-levres-lustreglass-sheer-shine?shade=I_Deserve_This"
+        },
+        {
+          "name": "Vanity case Etoile Collective, bordeaux",
+          "price": 76.00,
+          "image": "images/vanity-case.jpg",
+          "shop": "Revolve",
+          "note": "Offre black friday 76.00 au lieu de 108.00",
+          "url": "https://www.revolveclothing.fr/etoile-collective-vanity-case-in-burgundy/dp/EIVR-WU76/?d=Womens&src=BSPLP&page=1&lc=14"
+        }
+      ]
+    },
+    {
+      "title": "Maison & créatif",
+      "subtitle": "Soirées cosy",
+      "gifts": [
+        {
+          "name": "Carnet de recettes de Noël (en anglais)",
+          "price": 17.99,
+          "image": "images/carnet-recettes.jpg",
+          "shop": "Zara Home",
+          "url": "https://www.zarahome.com/fr/livre-de-recettes-de-noel-anglais-l47237111?srch=true&searchTerm=livre%20de%20recette&pelement=517554315&colorId=600"
+        },
+        {
+          "name": "Peinture à numéros « L'ascension du dragon »",
+          "price": 19.95,
+          "image": "images/peinture-dragon.jpg",
+          "shop": "DIY Art Club",
+          "note": "Prix Black Friday, normalement 40 €",
+          "url": "https://www.diy-artclub.com/fr-fr/products/dragon-s-ascent-paint-by-number"
+        },
+        {
+          "name": "Plateau en bois avec chargeur sans fil",
+          "price": 39.99,
+          "image": "images/plateau-chargeur.jpg",
+          "shop": "Zara Home",
+          "url": "https://www.zarahome.com/fr/plateau-en-bois-chargeur-mobile-l46193040?srch=true&searchTerm=chargeur%20sans%20fil&pelement=507779210&colorId=700"
+        },
+        {
+          "name": "Book nook Kirishima Cha-an (maquette serre-livre)",
+          "price": 41.90,
+          "image": "images/booknook-kirishima.jpg",
+          "shop": "Fnac",
+          "url": "https://www.fnac.com/mp53929122/Kirishima-Cha-an-Maquette-Booknook-Serre-Livre/w-4?oref=be410910-f516-5d42-1f48-bf328f678905"
+        },
+        {
+          "name": "Book nook Fourth Wing : Spire of the Wyrm",
+          "price": 52.90,
+          "image": "images/booknook-fourth-wing.jpg",
+          "shop": "Nookette",
+          "url": "https://nookette.fr/products/book-nook-fourth-wing-of-the-wyrm"
+        },
+        {
+          "name": "Lampe chauffe-bougie avec minuteur (seenlast)",
+          "price": 25.72,
+          "image": "images/lampe-chauffe-bougie.jpg",
+          "shop": "Amazon",
+          "url": "https://www.amazon.fr/-/en/seenlast-Adjustable-Electric-Scented-Decoration/dp/B0HCXXDYSQ?crid=1BQ1741F49L5T&dib=eyJ2IjoiMSJ9.3OfcNyUPzNAACLXqi4Uw6VMBBEx5AM4XrQLseSLKLItPkH0IO7oSI9b1ftQZjfK3zXtz3A_Ue3922WvTkdiFUKJLO2mT_MDQzW6UlNPs7kiaK3W-0eKpYlUycpBnWw018brzV6LQWPOhPNuQtbeKHR169sBzIIn99FxcCaejk27vYO3jjDAHtKKLldeu2Mm90rL7VlizB7EKzpdC8oZCW6hrCc0ryvVtfp_w2F_IooTI-66meGsUq2VyU_GE6F1dNHx0MKNXcMAls9j2qO1xg5lMoER1r6RpBx7wlhtsvEs.uydCsthmRGc0D7nJQFPaQtL0unmwAZQZ6DUE9Iujq2Q&dib_tag=se&keywords=lampe%2Bchauffe%2Bbougie&qid=1795429380&sprefix=lampe%2Bc%2Caps%2C144&sr=8-8&th=1"
+        }
+      ]
+    }
+  ]
+}

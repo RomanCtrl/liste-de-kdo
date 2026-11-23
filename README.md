@@ -13,6 +13,15 @@ Petit site statique (HTML/CSS/JS, sans build) qui présente ma liste de Noël.
 | `images/` | Photos des produits |
 | `liste-de-noel.pdf` | Version PDF, téléchargeable depuis la page |
 
+## Liste de Sarah
+
+Le dossier `sarah/` est une seconde liste, indépendante, avec son propre thème (bordeaux et or).
+Même principe : on modifie `sarah/gifts.json`. Champs en plus : `shop` (nom de la boutique),
+`note` (petite précision facultative), et `price` peut valoir `null` si le prix est inconnu.
+En ligne : `https://<utilisateur>.github.io/liste-de-kdo/sarah/`.
+
+Les captures d'écran d'origine (`cadeaux sarah/`) sont ignorées par git et ne sont pas publiées.
+
 ## Modifier la liste
 
 Ajouter un objet dans `gifts.json` :

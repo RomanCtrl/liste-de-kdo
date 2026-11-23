@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La liste de Sarah</title>
+  <meta name="description" content="Quelques idées cadeaux pour Noël, pour tous les budgets.">
+
+  <!-- Link previews (WhatsApp, Messenger, iMessage, Discord…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="La liste de Sarah">
+  <meta property="og:title" content="✨ Ma liste de Noël – Sarah">
+  <meta property="og:description" content="Bijoux, livres, mode et petites douceurs. Des idées pour tous les budgets, sans aucune pression !">
+  <meta property="og:url" content="https://romanctrl.github.io/liste-de-kdo/sarah/">
+  <meta property="og:image" content="https://romanctrl.github.io/liste-de-kdo/sarah/images/preview.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Haut de la page « Ma liste de Noël » de Sarah : en-tête bordeaux avec des paillettes dorées">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="sparkles" aria-hidden="true"></div>
+    <p class="eyebrow">Idées cadeaux pour Sarah</p>
+    <h1>
+      <span class="ornament" aria-hidden="true"></span>
+      Ma liste de Noël
+    </h1>
+    <p class="intro">
+      Coucou ! Si vous vous demandez quoi m'offrir cette année, voici quelques idées
+      pour vous inspirer. Prenez ce qui vous fait plaisir, sans aucune pression, rien n'oblige !
+    </p>
+    <p class="budget-pill" id="budget-pill">Des idées pour tous les budgets</p>
+  </header>
+
+  <main>
+    <nav class="filters" aria-label="Filtrer par budget">
+      <button type="button" class="chip is-active" data-min="0" data-max="Infinity" aria-pressed="true">Tous</button>
+      <button type="button" class="chip" data-min="0" data-max="30" aria-pressed="false">Moins de 30 €</button>
+      <button type="button" class="chip" data-min="30" data-max="60" aria-pressed="false">30 € à 60 €</button>
+      <button type="button" class="chip" data-min="60" data-max="Infinity" aria-pressed="false">Plus de 60 €</button>
+    </nav>
+
+    <div id="sections"></div>
+    <p class="empty" id="empty" hidden>Aucune idée dans ce budget… essayez un autre filtre !</p>
+
+    <noscript>
+      <p class="empty">Cette page a besoin de JavaScript pour afficher la liste.</p>
+    </noscript>
+
+    <aside class="tip">
+      <span class="tip__icon" aria-hidden="true">🎀</span>
+      <p>
+        <strong>Petit conseil :</strong> les idées viennent de boutiques différentes, donc pensez aux
+        <strong>frais de port</strong> et aux <strong>délais de livraison</strong> : commandez tôt pour
+        que tout arrive avant Noël. Si vous hésitez sur une taille ou une teinte,
+        <strong>demandez-moi</strong> !
+      </p>
+    </aside>
+
+    <footer class="footer">
+      <p class="thanks">Merci mille fois et joyeux Noël !</p>
+      <p class="small">Prix relevés en novembre 2026, ils peuvent changer.</p>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
